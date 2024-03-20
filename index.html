@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00d3dd7afa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/img.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1>Hey !! This is <span>Vishal <br> Karthick</span> from Chennai</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------ABOUT------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/new3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <br>
+                    <p>Greetings! I'm thrilled to have you visit my portfolio website. As a seasoned professional in the field of web development, I bring a wealth of expertise and a strong commitment to excellence. With a focus on delivering high-quality solutions, I specialize in creating visually stunning websites that not only captivate users but also align with your business goals. </p>
+                    <br>
+                    <p> With a meticulous approach to coding and a deep understanding of user experience, I strive to build seamless and intuitive digital experiences. From responsive layouts to optimized performance, I ensure that every aspect of your website is meticulously crafted to provide an exceptional user journey. </p>
+                    <br>
+                    <p> Beyond technical skills, I pride myself on effective communication and collaboration. I value your vision and goals, and I am dedicated to translating them into a captivating digital presence. By leveraging the latest industry trends and incorporating cutting-edge technologies, I aim to exceed your expectations and deliver results that drive growth and success. </p>
+                    <br>
+                    <p> Let's embark on a transformative journey together. Explore my portfolio and discover how I can help you establish a strong online presence and make a lasting impact in the digital landscape. </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('Expirience')">EXPIRIENCE</p>
+                        <p class="tab-links" onclick="opentab('Education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span>Designing Web App/Interfaces</li>
+                            <li><span>Web Development</span>Web App Development</li>
+                            <li><span>App Development</span>Developing Android/iOS Devices</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Expirience">
+                        <ul>
+                            <li><span>2020</span>Hackathon</li>
+                            <li><span>2022</span>Stock Market Prediction</li>
+                            <li><span>2023</span>Portfolio Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2009-2020</span>School</li>
+                            <li><span>2021-2025(ongoing)</span>College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!---------------SERVICES------------------>
+
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Unlock the limitless potential of your online presence with our exceptional web development services. From cutting-edge design to seamless functionality, we'll bring your vision to life and create a captivating digital experience that leaves a lasting impression. Elevate your business to new heights with our expertise in responsive design, intuitive interfaces, and optimized performance. Let's build your online success together.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Transform your digital vision into reality with our exceptional UI/UX design expertise. Our creative team combines aesthetics and functionality to deliver captivating designs that engage users and drive results. From intuitive interfaces to seamless interactions, we'll elevate your digital experience to new heights. Stand out from the crowd and make a lasting impact with our top-notch UI/UX design services.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2>
+                    <p>Unleash the full potential of your ideas with our exceptional app development services. From concept to launch, we'll transform your vision into a feature-rich and user-friendly mobile application that engages and delights your audience. With a focus on cutting-edge technology and seamless functionality, we'll create an app that stands out in the digital landscape. Take your business to new heights with our expertise in app development and unlock a world of endless possibilities.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!---------------PORTFOLIO------------------>    
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work4.png">    
+                    <div class="layer">
+                        <h3>Stock Market Prediction</h>
+                        <br>
+                        <br>
+                        <p>This allows the user to perdict the future of stock market and
+                            analyze whether to  buy or sell the stocks.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>Sensor App</h3>
+                        <p>This project allows the user to know the amount of percentage of water 
+                            in the soil along with the other minerals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>Internet Of Things</h3>
+                        <p>This mobile application allows the user to connect 
+                            to every device nearby under the same wi-fi and access them.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!---------------ABOUT------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>vishalkarthick@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>63744 32934</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=1157384937"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vishalkarthick_12/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/vishalkarthick176"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vishal-karthick-1370b652/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-Mail" placeholder="Your E-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+            <div class="copyrights">
+                <p><i class="fa-solid fa-copyright">Made as sample</i></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/a/macros/citchennai.net/s/AKfycbzXyCFDF-dNrHUKhLtEzItabOkzBnpLTjsAtCVLAYf8fgmXdGRnX0gyt3gK_smkz6FV/exec'
+        const form = document.forms['submit-to-google-sheet']
+  
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))   
+        })
+    </script>
+
+</body>
+</html>
